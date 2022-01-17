@@ -11,12 +11,17 @@ h1{
     color: orange;
 }
 
-
-.container1{
+/* container part */
+.container1 , .container2{
     /* border: 1px solid red; */
     height: 550px;
     background-image: url("../img/top-banner.png");
     background-repeat: no-repeat;
+}
+
+.container2{
+    background-image: url(../img/dream-bg.png);
+    background-position: right;
 }
 
 .half-width{
@@ -26,7 +31,7 @@ h1{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 500px;
 }
 .link-btn{
     text-decoration: none;
