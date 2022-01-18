@@ -14,7 +14,7 @@ h1{
 }
 
 /* container part */
-.container1 , .container2{
+.container1 , .container2 , .container3{
     /* border: 1px solid red; */
     height: 550px;
     background-image: url("../img/top-banner.png");
@@ -25,6 +25,9 @@ h1{
 .container2{
     background-image: url(../img/dream-bg.png);
     background-position: right;
+}
+.container3{
+    background: none;
 }
 
 .half-width{
